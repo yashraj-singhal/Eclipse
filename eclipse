@@ -1,0 +1,87 @@
+/*public class Yashraj {
+    public static void merge(int[] arr,int l,int mid,int f)
+    {
+        int n1= mid-l+1;
+        int n2 = f-mid;
+        int[] arr1 =new int[n1];
+        int[] arr2 =new int[n2];
+        int k=l;
+        for (int i=0;i<n1;i++)
+        {
+            arr1[i]=arr[k+i];
+        }
+        for (int i=0;i<n2;i++)
+        {
+            arr2[i]=arr[mid +1+i];
+        }
+        int i=0;
+        int j=0;
+        while (i<n1 && j<n2)
+        {
+            if(arr1[i]<=arr2[j])
+            {
+                arr[k]=arr1[i];
+                i++;
+            }
+            else
+            {
+                arr[k]=arr2[j];
+                j++;
+            }
+            k++;
+        }
+        while(j<n2)
+        {
+            arr[k++]=arr2[j++];
+        }
+        while(i<n1)
+        {
+            arr[k++]=arr1[i++];
+        }
+    }
+    public static void sort(int[] arr,int l,int f)
+    {
+        if (l<f)
+        {
+            int mid=l+f;
+            mid=mid/2;
+            sort(arr,l,mid);
+            sort(arr,mid+1,f);
+            merge(arr,l,mid,f);
+        }
+    }*/
+
+/////////////////////////////////////////////////////////////////////////////
+/*
+import java.io.*;
+import java.util.Scanner;
+public class Queue {
+    Node front;
+    Node rear;
+    int length;
+    static class Node {
+        int data;
+        Node next;
+
+        Node(int d) {
+            data = d;
+            next = null;
+        }
+    }
+    public static void Insert(Queue qq, int d) {
+        Node newn = new Node(d);
+        if (qq.front == null) {
+            qq.rear=null;
+            qq.rear = newn;
+            qq.front = newn;
+            qq.length++;
+        } else {
+            qq.rear.next = newn;
+            qq.rear = qq.rear.next;
+            qq.length++;
+        }
+    }
+*/
+toComapre()
+charAt()
+int result = Integer.parseInt(number);
